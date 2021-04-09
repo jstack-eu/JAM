@@ -14,11 +14,11 @@ export async function getStaticProps() {
 }
 
 const Home = ({data}) => {
-  console.log('1: ', process.env.CF_SPACE_ID);
-  console.log('2: ', data);
-  console.log('3: ', data.fields);
-  console.log('4: ', data.fields.block);
-  console.log('5: ', data.fields.block[0].fields.title);
+  // console.log('1: ', process.env.CF_SPACE_ID);
+  // console.log('2: ', data);
+  // console.log('3: ', data.fields);
+  // console.log('4: ', data.fields.block);
+  // console.log('5: ', data.fields.block[0].fields.title);
 
   return (
     <div className="container">
