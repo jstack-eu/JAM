@@ -1,6 +1,9 @@
-import theme from "../styles/theme";
+import theme from '../styles/theme';
 
 const Home = () => {
+  console.log('1: ', process.env.CF_SPACE_ID);
+  // console.log('2: ', CF_SPACE_ID);
+
   return (
     <div className="container">
       <div className="home">
@@ -12,7 +15,7 @@ const Home = () => {
       <style jsx>{`
         .catchphrase {
           margin-top: 180px;
-          font-family: "Source Serif Pro, serif";
+          font-family: 'Source Serif Pro, serif';
           font-size: ${theme.fontSize.catchphrase};
         }
       `}</style>
