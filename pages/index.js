@@ -1,5 +1,5 @@
-import theme from './styles/theme';
-import {getEntry} from './services/contentful';
+import theme from '../styles/theme';
+import {getEntry} from '../services/contentful';
 import {documentToReactComponents as renderRichText} from '@contentful/rich-text-react-renderer';
 
 export async function getStaticProps() {
