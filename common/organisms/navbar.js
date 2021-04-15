@@ -2,20 +2,16 @@ import React, { useState } from "react";
 import Link from "next/link";
 import theme from "../styles/theme";
 
-const Navbar = () => {
-  const [open, setOpen] = useState(false);
+const Navbar = ({ pages }) => {
   return (
     <div>
       <nav>
         <div className="nav-inner-wrapper">
           <div className="logo">LOGO</div>
           <div className="link-wrapper">
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
+            {pages.map((page) => (
+              <Link href={page.slug}><a>{page.label}</a></Link>
+            ))}
           </div>
         </div>
 
@@ -47,6 +43,12 @@ const Navbar = () => {
           .navLogo {
             width: 200px;
             object-fit: contain;
+          }
+
+          @media screen and (max-width: ${theme.layout.containerWidth}) {
+            .nav-inner-wrapper {
+              width: 100% !important;
+            }
           }
         `}</style>
       </nav>

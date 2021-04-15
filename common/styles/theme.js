@@ -15,11 +15,12 @@ const theme = {
 
     lightGrey: '#f1f1f1',
 
-    primaryLighter: '#A5CFDF',
-    primaryLight: '#5FB6D9',
-    primary: '#1e9dd0',
-    primaryDark: '#146E91',
-    primaryDarker: '#0B3E52',
+    primaryLightest: '#A5CFDF',
+    primaryLighter: '#5FB6D9',
+    primaryLight: '#1e9dd0',
+    primary: '#146E91',
+    primaryDark: '#0B3E52',
+    primaryDarker: '#162B33'
   },
   fontSize: {
     small: '12px',

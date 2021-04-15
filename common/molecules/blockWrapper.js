@@ -12,6 +12,11 @@ export const Layout = ({ children, ...props }) => {
           margin-left: auto;
           margin-right: auto;
         }
+        @media screen and (max-width: ${theme.layout.containerWidth}) {
+            .container {
+              width: 100% !important;
+            }
+          }
       `}</style>
     </div>
   );

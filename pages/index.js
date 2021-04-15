@@ -1,9 +1,12 @@
 import theme from "../common/styles/theme";
-import { getEntry, getEntries, getEntryByField } from "../services/contentful";
+import {
+  getNavPages,
+  getEntries,
+  getEntryByField,
+} from "../common/services/contentful";
 import { documentToReactComponents as renderRichText } from "@contentful/rich-text-react-renderer";
 import Layout from "../common/molecules/layout";
 import TextBlock from "../common/organisms/textBlock";
-
 
 export async function getStaticProps() {
   // Fetch all entries of content_type `blogPost`
@@ -12,22 +15,28 @@ export async function getStaticProps() {
   const data = await getEntries({
     content_type: "page",
     "fields.slug": "home",
-    include: 3,
+    include: 10,
   });
+
+  const pages = await getNavPages();
 
   const home = await getEntryByField("slug", "home");
   return {
     props: {
       home,
+      pages,
     },
   };
 }
 
-const Home = ({ home }) => {
+const Home = ({ home, pages }) => {
   return (
     <div className="container">
-      <Layout>
-        <TextBlock title={home.fields.block[0].fields.title} content={home.fields.block[0].fields.content} />
+      <Layout pages={pages}>
+        <TextBlock
+          title={home.fields.block[0].fields.title}
+          content={home.fields.block[0].fields.content}
+        />
       </Layout>
 
       <style jsx>{`
