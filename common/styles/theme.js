@@ -38,6 +38,9 @@ const theme = {
     xl: '48px',
     xxl: '72px',
   },
+  layout: {
+    containerWidth: '1080px'
+  }
 };
 
 export default theme;

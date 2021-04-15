@@ -1,36 +1,39 @@
-import theme from '../styles/theme';
-import {getEntry} from '../services/contentful';
-import {documentToReactComponents as renderRichText} from '@contentful/rich-text-react-renderer';
+import theme from "../common/styles/theme";
+import { getEntry, getEntries, getEntryByField } from "../services/contentful";
+import { documentToReactComponents as renderRichText } from "@contentful/rich-text-react-renderer";
+import Layout from "../common/molecules/layout";
+import TextBlock from "../common/organisms/textBlock";
+
 
 export async function getStaticProps() {
   // Fetch all entries of content_type `blogPost`
-  const data = await getEntry('jHPWJqzEJasCbfzY8UD2n');
+  // const data = await getEntry("jHPWJqzEJasCbfzY8UD2n");
 
+  const data = await getEntries({
+    content_type: "page",
+    "fields.slug": "home",
+    include: 3,
+  });
+
+  const home = await getEntryByField("slug", "home");
   return {
     props: {
-      data,
+      home,
     },
   };
 }
 
-const Home = ({data}) => {
-  // console.log('1: ', process.env.CF_SPACE_ID);
-  // console.log('2: ', data);
-  // console.log('3: ', data.fields);
-  // console.log('4: ', data.fields.block);
-  // console.log('5: ', data.fields.block[0].fields.title);
-
+const Home = ({ home }) => {
   return (
     <div className="container">
-      <div className="home">
-        <h1>{data.fields.block[0].fields.title}</h1>
-        {renderRichText(data.fields.block[0].fields.content)}
-      </div>
+      <Layout>
+        <TextBlock title={home.fields.block[0].fields.title} content={home.fields.block[0].fields.content} />
+      </Layout>
 
       <style jsx>{`
         .catchphrase {
           margin-top: 180px;
-          font-family: 'Source Serif Pro, serif';
+          font-family: "Source Serif Pro, serif";
           font-size: ${theme.fontSize.catchphrase};
         }
       `}</style>

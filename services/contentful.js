@@ -25,3 +25,14 @@ export const getEntries = async (obj) => {
   const c = await getClient();
   return c.getEntries(obj);
 };
+
+export const getEntryByField = async (key, value) => {
+  const fieldKey = `fields.${key}`
+  const data = await getEntries({
+    content_type: "page",
+    [fieldKey]: value,
+    include: 3,
+  });
+
+  return data.items[0]
+};
