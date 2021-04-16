@@ -20,7 +20,9 @@ const theme = {
     primaryLight: '#1e9dd0',
     primary: '#146E91',
     primaryDark: '#0B3E52',
-    primaryDarker: '#162B33'
+    primaryDarker: '#162B33',
+
+    secondary: '#0D916F'
   },
   fontSize: {
     small: '12px',

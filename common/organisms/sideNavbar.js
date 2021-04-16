@@ -33,7 +33,8 @@ const Navbar = ({ pages }) => {
           }
 
           .logo {
-            letter-spacing: 0.8px;
+            font-family: 'Signika';
+            letter-spacing: 4px;
             padding: 24px;
           }
 
@@ -55,7 +56,7 @@ const Navbar = ({ pages }) => {
 
           .link-wrapper a {
             text-decoration: none;
-            letter-spacing: 0.8px;
+            letter-spacing: 4px;
             font-weight: bold;
             color: ${theme.color.inversedText};
           }

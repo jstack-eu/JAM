@@ -6,7 +6,7 @@ import {
   getNavPages,
 } from "../common/services/contentful";
 import Layout from "../common/molecules/layout";
-import BlockRender from "../common/molecules/blockRender";
+import BlocksRender from "../common/molecules/blocksRender";
 
 export async function getStaticPaths() {
   let data = await getEntries({
@@ -47,15 +47,10 @@ export const Page = ({ data, config, pages }) => {
   return (
     <div className="container">
       <Layout pages={pages} config={config}>
-        {data?.fields?.block && <BlockRender data={data.fields.block} />}
+        {data?.fields?.block && <BlocksRender data={data.fields.block} />}
       </Layout>
 
       <style jsx>{`
-        .catchphrase {
-          margin-top: 180px;
-          font-family: "Source Serif Pro, serif";
-          font-size: ${theme.fontSize.catchphrase};
-        }
       `}</style>
     </div>
   );

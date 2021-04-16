@@ -1,24 +1,26 @@
 import theme from "../styles/theme";
 import ContentBlock from "../organisms/contentBlock";
 
-export const BlockRender = ({ data }) => {
+export const BlockRender = ({ fields, type }) => {
+  const backgroundColor = fields.backgroundColor;
   return (
-    <div className="block-container">
-      {data.map((item) => {
-        const type = item.sys.contentType.sys.id;
-        return (
-          <>
-            {type === "textBlock" && (
-              <ContentBlock
-                title={item.fields.title}
-                content={item.fields.content}
-              />
-            )}
-          </>
-        );
-      })}
-
+    <div>
+      {type === "textBlock" && (
+        <div className="block-container-wrapper">
+          <div className="block-container">
+            <ContentBlock
+              title={fields.title}
+              content={fields.content}
+              backgroundColor={backgroundColor}
+            />
+          </div>
+        </div>
+      )}
       <style jsx>{`
+        .block-container-wrapper {
+          padding: 26px 0;
+          background-color: ${theme.color[backgroundColor]};
+        }
         .block-container {
           width: ${theme.layout.containerWidth};
           margin-left: auto;
