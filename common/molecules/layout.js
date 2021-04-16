@@ -22,7 +22,7 @@ export const Layout = ({ children, ...props }) => {
           margin-top: ${config.navbarPlacement === "left"
             ? theme.margin.xl
             : "0px"};
-          margin-left: ${config.navbarPlacement === "left" ? "300px" : "0px"};
+          margin-left: ${config.navbarPlacement === "left" ? "340px" : "0px"};
         }
       `}</style>
     </div>

@@ -5,7 +5,7 @@ const theme = {
     sourceSerif: 'Source Serif Pro, serif',
   },
   color: {
-    text: '#333',
+    text: '#161629',
     textLight: '#989898',
     inversedText: '#fff',
     background: '#fff',
@@ -13,16 +13,18 @@ const theme = {
     warning: '#fff3cd',
     success: '#d4edda',
 
-    lightGrey: '#f1f1f1',
+    lightGrey: '#eef0f4',
 
     primaryLightest: '#A5CFDF',
     primaryLighter: '#5FB6D9',
     primaryLight: '#1e9dd0',
-    primary: '#146E91',
-    primaryDark: '#0B3E52',
-    primaryDarker: '#162B33',
 
-    secondary: '#0D916F'
+    primary: '#2362e0',
+    primaryDark: '#161629',
+
+    secondary: '#86e7ca',
+
+    accent: '#efff62'
   },
   fontSize: {
     small: '12px',

@@ -25,9 +25,10 @@ const Navbar = ({ pages }) => {
           }
 
           .logo-wrapper {
-            background-color: ${theme.color.primaryDarker};
+            background-color: ${theme.color.primaryDark};
             color: ${theme.color.inversedText};
             margin-bottom: ${theme.margin.ml};
+            border-bottom: 1px solid ${theme.color.background};
             font-size: 24px;
             font-weight: bold;
           }
@@ -40,7 +41,7 @@ const Navbar = ({ pages }) => {
 
           .nav-inner-wrapper {
             flex-direction: column;
-            width: 300px;
+            width: 340px;
             position: fixed;
             top: 0;
             left: 0;
