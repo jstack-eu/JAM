@@ -1,15 +1,11 @@
 import React, { useState } from "react";
 import { documentToReactComponents as renderRichText } from "@contentful/rich-text-react-renderer";
 import { BLOCKS } from "@contentful/rich-text-types";
-import BlockWrapper from "../molecules/blockWrapper";
 
-const TextBlock = ({ title, content }) => {
-  console.log("CONTENttttttT: ", content.content);
-
+const ContentBlock = ({ title, content }) => {
   const renderOptions = {
     renderNode: {
       [BLOCKS.EMBEDDED_ENTRY]: (node, children) => {
-        console.log("NODE", node);
         if (node.data.target.sys.contentType.sys.id === "videoEmbed") {
           return (
             <iframe
@@ -27,8 +23,6 @@ const TextBlock = ({ title, content }) => {
 
       [BLOCKS.EMBEDDED_ASSET]: (node, children) => {
         const fileName = node.data.target.fields.file.fileName;
-
-        console.log("ello");
         if (node.data.target.fields.file.contentType.includes("video")) {
           return (
             <div className="video-container">
@@ -93,8 +87,7 @@ const TextBlock = ({ title, content }) => {
           return (
             <img
               src={`https://${node.data.target.fields.file.url}`}
-              height={node.data.target.fields.file.details.image.height}
-              width={node.data.target.fields.file.details.image.width}
+              width="100%"
               alt={node.data.target.fields.description}
             />
           );
@@ -106,12 +99,12 @@ const TextBlock = ({ title, content }) => {
   };
 
   return (
-    <BlockWrapper>
+    <div>
       <h1>{title}</h1>
       {renderRichText(content, renderOptions)}
       <style jsx>{``}</style>
-    </BlockWrapper>
+    </div>
   );
 };
 
-export default TextBlock;
+export default ContentBlock;

@@ -6,7 +6,7 @@ import {
   getNavPages,
 } from "../common/services/contentful";
 import Layout from "../common/molecules/layout";
-import TextBlock from "../common/organisms/textBlock";
+import BlockRender from "../common/molecules/blockRender";
 
 export async function getStaticPaths() {
   let data = await getEntries({
@@ -44,16 +44,10 @@ export async function getStaticProps({ params }) {
 }
 
 export const Page = ({ data, config, pages }) => {
-  console.log("data: ", data.fields);
   return (
     <div className="container">
       <Layout pages={pages} config={config}>
-        {data?.fields?.block && (
-          <TextBlock
-            title={data.fields.block[0].fields.title}
-            content={data.fields.block[0].fields.content}
-          />
-        )}
+        {data?.fields?.block && <BlockRender data={data.fields.block} />}
       </Layout>
 
       <style jsx>{`

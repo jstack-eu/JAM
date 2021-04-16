@@ -7,7 +7,7 @@ import {
 } from "../common/services/contentful";
 import { documentToReactComponents as renderRichText } from "@contentful/rich-text-react-renderer";
 import Layout from "../common/molecules/layout";
-import TextBlock from "../common/organisms/textBlock";
+import ContentBlock from "../common/organisms/contentBlock";
 
 export async function getStaticProps() {
   const config = await getConfig();
@@ -24,11 +24,10 @@ export async function getStaticProps() {
 }
 
 const Home = ({ home, pages, config }) => {
-  console.log("config: ", config);
   return (
     <div className="container">
       <Layout pages={pages} config={config}>
-        <TextBlock
+        <ContentBlock
           title={home.fields.block[0].fields.title}
           content={home.fields.block[0].fields.content}
         />
