@@ -3,17 +3,17 @@ import Navbar from "../organisms/navbar";
 
 export const Layout = ({ children, ...props }) => {
   return (
-    <div className="container">
+    <div className="block-container">
       {children}
 
       <style jsx>{`
-        .container {
+        .block-container {
           width: ${theme.layout.containerWidth};
           margin-left: auto;
           margin-right: auto;
         }
         @media screen and (max-width: ${theme.layout.containerWidth}) {
-            .container {
+            .block-container {
               width: 100% !important;
             }
           }

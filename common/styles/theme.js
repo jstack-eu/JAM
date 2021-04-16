@@ -40,7 +40,7 @@ const theme = {
     xxl: '72px',
   },
   layout: {
-    containerWidth: '1080px'
+    containerWidth: '864px'
   }
 };
 

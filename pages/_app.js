@@ -1,5 +1,6 @@
 import "../common/styles/globals.css";
 
+// getInitialProps doesn't trigger here...
 
 // import { getNavPages } from "../common/services/contentful";
 

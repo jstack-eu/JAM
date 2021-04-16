@@ -1,6 +1,7 @@
 import theme from "../common/styles/theme";
 import {
   getNavPages,
+  getConfig,
   getEntries,
   getEntryByField,
 } from "../common/services/contentful";
@@ -9,30 +10,24 @@ import Layout from "../common/molecules/layout";
 import TextBlock from "../common/organisms/textBlock";
 
 export async function getStaticProps() {
-  // Fetch all entries of content_type `blogPost`
-  // const data = await getEntry("jHPWJqzEJasCbfzY8UD2n");
-
-  const data = await getEntries({
-    content_type: "page",
-    "fields.slug": "home",
-    include: 10,
-  });
-
+  const config = await getConfig();
   const pages = await getNavPages();
+  const home = await getEntryByField("slug", "home", "page");
 
-  const home = await getEntryByField("slug", "home");
   return {
     props: {
+      config,
       home,
       pages,
     },
   };
 }
 
-const Home = ({ home, pages }) => {
+const Home = ({ home, pages, config }) => {
+  console.log("config: ", config);
   return (
     <div className="container">
-      <Layout pages={pages}>
+      <Layout pages={pages} config={config}>
         <TextBlock
           title={home.fields.block[0].fields.title}
           content={home.fields.block[0].fields.content}

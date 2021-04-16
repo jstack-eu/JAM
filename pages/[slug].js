@@ -1,6 +1,10 @@
 import theme from "../common/styles/theme";
 import { documentToReactComponents as renderRichText } from "@contentful/rich-text-react-renderer";
-import { getEntries, getNavPages } from "../common/services/contentful";
+import {
+  getEntries,
+  getConfig,
+  getNavPages,
+} from "../common/services/contentful";
 import Layout from "../common/molecules/layout";
 import TextBlock from "../common/organisms/textBlock";
 
@@ -11,7 +15,6 @@ export async function getStaticPaths() {
 
   return {
     paths: data.items.map((item) => {
-      console.log("-------------", item.fields);
       return {
         params: { slug: item.fields.slug || "" },
       };
@@ -27,21 +30,24 @@ export async function getStaticProps({ params }) {
     "fields.slug": params.slug,
   });
 
+  const config = await getConfig();
+
   const pages = await getNavPages();
 
   return {
     props: {
       data: data.items[0],
+      config,
       pages,
     },
   };
 }
 
-export const Page = ({ data, pages }) => {
+export const Page = ({ data, config, pages }) => {
   console.log("data: ", data.fields);
   return (
     <div className="container">
-      <Layout pages={pages}>
+      <Layout pages={pages} config={config}>
         {data?.fields?.block && (
           <TextBlock
             title={data.fields.block[0].fields.title}
