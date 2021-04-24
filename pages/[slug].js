@@ -11,6 +11,7 @@ import BlocksRender from "../common/molecules/blocksRender";
 export async function getStaticPaths() {
   let data = await getEntries({
     content_type: "page",
+    include: 10,
   });
 
   return {
@@ -28,11 +29,14 @@ export async function getStaticProps({ params }) {
   let data = await getEntries({
     content_type: "page",
     "fields.slug": params.slug,
+    include: 10,
   });
 
   const config = await getConfig();
 
   const pages = await getNavPages();
+
+  console.log("PAGESSS:", pages);
 
   return {
     props: {
@@ -50,8 +54,7 @@ export const Page = ({ data, config, pages }) => {
         {data?.fields?.block && <BlocksRender data={data.fields.block} />}
       </Layout>
 
-      <style jsx>{`
-      `}</style>
+      <style jsx>{``}</style>
     </div>
   );
 };

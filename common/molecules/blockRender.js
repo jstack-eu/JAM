@@ -11,6 +11,7 @@ export const BlockRender = ({ fields, type }) => {
             <ContentBlock
               title={fields.title}
               content={fields.content}
+              contentRight={fields.contentRight}
               backgroundColor={backgroundColor}
             />
           </div>

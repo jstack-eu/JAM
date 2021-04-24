@@ -9,8 +9,12 @@ const Navbar = ({ pages }) => {
         <div className="nav-inner-wrapper">
           <div className="logo">LOGO</div>
           <div className="link-wrapper">
-            {pages.map((page) => (
-              <Link href={page.slug}><a>{page.label}</a></Link>
+            {pages.map((page, i) => (
+              <div key={i}>
+                <Link href={page.slug}>
+                  <a>{page.label}</a>
+                </Link>
+              </div>
             ))}
           </div>
         </div>

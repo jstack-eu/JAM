@@ -10,9 +10,9 @@ const Navbar = ({ pages }) => {
           <div className="logo-wrapper">
             <div className="logo">JAMBLOCKS</div>
           </div>
-          {pages.map((page) => (
-            <div className="link-wrapper">
-              <Link href={page.slug}>
+          {pages.map((page, i) => (
+            <div key={i} className="link-wrapper">
+              <Link href={`/${page.slug}`}>
                 <a>{page.label}</a>
               </Link>
             </div>
@@ -34,7 +34,7 @@ const Navbar = ({ pages }) => {
           }
 
           .logo {
-            font-family: 'Signika';
+            font-family: "Signika";
             letter-spacing: 4px;
             padding: 24px;
           }

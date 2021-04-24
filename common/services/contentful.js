@@ -16,11 +16,6 @@ export const getClient = async () => {
   return client;
 };
 
-export const getEntry = async (id) => {
-  const c = await getClient();
-  return c.getEntry(id);
-};
-
 export const getEntries = async (obj) => {
   const c = await getClient();
   return c.getEntries(obj);
@@ -31,24 +26,22 @@ export const getEntryByField = async (key, value, type) => {
   const data = await getEntries({
     content_type: type,
     [fieldKey]: value,
-    include: 3,
+    include: 10,
   });
 
-  return data.items[0];
+  return data;
 };
 
 // SPECIFIC
 
 export const getNavPages = async () => {
   const entries = await getEntries({
-    content_type: "page"
+    content_type: "page",
+    include: 10,
   });
   return entries.items
-    .filter((entry) => !
-    
-    entry.fields.hideInNavbar)
+    .filter((entry) => !entry.fields.hideInNavbar)
     .map((entry) => {
-      console
       return {
         label: entry.fields.name,
         slug: entry.fields.slug,
@@ -58,7 +51,7 @@ export const getNavPages = async () => {
 
 export const getConfig = async () => {
   const entries = await getEntries({
-    content_type: "configuration"
+    content_type: "configuration",
   });
   return entries.items[0];
 };

@@ -4,8 +4,7 @@ import SideNavbar from "../organisms/sideNavbar";
 
 export const Layout = ({ children, ...props }) => {
   const config = props?.config?.fields || "top";
-
-  const type = "SIDE-NAV"; // TOP-NAV
+  
   return (
     <div className="layout-container">
       {config.navbarPlacement === "left" && (
