@@ -27,10 +27,10 @@ const Home = ({ home, pages, config }) => {
   return (
     <div className="container">
       <Layout pages={pages} config={config}>
-        <ContentBlock
+        {/* <ContentBlock
           title={home.fields.block[0].fields.title}
           content={home.fields.block[0].fields.content}
-        />
+        /> */}
       </Layout>
 
       <style jsx>{`
