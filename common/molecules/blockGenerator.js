@@ -1,7 +1,7 @@
 import theme from "../styles/theme";
 import ContentBlock from "../organisms/contentBlock";
 
-export const BlockRender = ({ fields, type }) => {
+export const BlockGenerator = ({ fields, type }) => {
   const backgroundColor = fields.backgroundColor;
   return (
     <div>
@@ -37,4 +37,4 @@ export const BlockRender = ({ fields, type }) => {
   );
 };
 
-export default BlockRender;
+export default BlockGenerator;

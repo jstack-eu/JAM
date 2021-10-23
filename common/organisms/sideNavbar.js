@@ -8,7 +8,7 @@ const Navbar = ({ pages }) => {
       <nav>
         <div className="nav-inner-wrapper">
           <div className="logo-wrapper">
-            <div className="logo">JAMBLOCKS</div>
+            <div className="logo">JBLOCKS</div>
           </div>
           {pages.map((page, i) => (
             <div key={i} className="link-wrapper">
