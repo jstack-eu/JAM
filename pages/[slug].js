@@ -2,7 +2,7 @@ import theme from "../common/styles/theme";
 import { documentToReactComponents as renderRichText } from "@contentful/rich-text-react-renderer";
 import { getEntries, getNavPages } from "../common/services/contentful";
 import Layout from "../common/molecules/layout";
-import BlockGenerator from "../common/molecules/blocksGenerator";
+import SectionsGenerator from "../common/molecules/sectionsGenerator";
 
 export async function getStaticPaths() {
   let data = await getEntries({
@@ -41,8 +41,8 @@ export async function getStaticProps({ params }) {
 export const Page = ({ data, pages }) => {
   return (
     <div className="container">
-      <Layout pages={pages} config={config}>
-        {data?.fields?.block && <BlockGenerator data={data.fields.block} />}
+      <Layout pages={pages}>
+        {data?.fields?.block && <SectionsGenerator data={data.fields.block} />}
       </Layout>
 
       <style jsx>{``}</style>

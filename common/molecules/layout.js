@@ -13,10 +13,10 @@ export const Layout = ({ children, ...props }) => {
 
       <style jsx>{`
         .layout-container {
-          margin-top: ${config.navbarPlacement === "left"
+          margin-top: ${config === "left"
             ? theme.margin.xl
             : "0px"};
-          margin-left: ${config.navbarPlacement === "left" ? "340px" : "0px"};
+          margin-left: ${config === "left" ? "340px" : "0px"};
         }
       `}</style>
     </div>
