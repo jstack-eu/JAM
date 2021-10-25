@@ -3,16 +3,11 @@ import Navbar from "../organisms/navbar";
 import SideNavbar from "../organisms/sideNavbar";
 
 export const Layout = ({ children, ...props }) => {
-  const config = props?.config?.fields || "top";
-  
+  const config = props?.config?.fields || "left";
+
   return (
     <div className="layout-container">
-      {config.navbarPlacement === "left" && (
-        <SideNavbar pages={props.pages}></SideNavbar>
-      )}
-      {config.navbarPlacement === "top" && (
-        <Navbar pages={props.pages}></Navbar>
-      )}
+      <SideNavbar pages={props.pages}></SideNavbar>
 
       {children}
 

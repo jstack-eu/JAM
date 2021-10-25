@@ -48,10 +48,3 @@ export const getNavPages = async () => {
       };
     });
 };
-
-export const getConfig = async () => {
-  const entries = await getEntries({
-    content_type: "configuration",
-  });
-  return entries.items[0];
-};

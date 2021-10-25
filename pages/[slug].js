@@ -1,10 +1,6 @@
 import theme from "../common/styles/theme";
 import { documentToReactComponents as renderRichText } from "@contentful/rich-text-react-renderer";
-import {
-  getEntries,
-  getConfig,
-  getNavPages,
-} from "../common/services/contentful";
+import { getEntries, getNavPages } from "../common/services/contentful";
 import Layout from "../common/molecules/layout";
 import BlockGenerator from "../common/molecules/blocksGenerator";
 
@@ -32,22 +28,17 @@ export async function getStaticProps({ params }) {
     include: 10,
   });
 
-  const config = await getConfig();
-
   const pages = await getNavPages();
-
-  console.log("PAGESSS:", pages);
 
   return {
     props: {
       data: data.items[0],
-      config,
       pages,
     },
   };
 }
 
-export const Page = ({ data, config, pages }) => {
+export const Page = ({ data, pages }) => {
   return (
     <div className="container">
       <Layout pages={pages} config={config}>
