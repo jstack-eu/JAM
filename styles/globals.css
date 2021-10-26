@@ -1,0 +1,63 @@
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  /* height: 100%; */
+}
+html,
+body {
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  padding: 0;
+  margin: 0;
+  font-family: "OpenSans", sans-serif;
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "OpenSans", sans-serif;
+}
+
+a {
+  font-family: "OpenSans", sans-serif;
+}
+
+.container {
+  height: 100%;
+  overflow: auto;
+}
+
+p, div {
+  line-height: 26px;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("/fonts/Archivo/Archivo-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ArchivoBlack";
+  src: url("/fonts/Archivo/Archivo-Black.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
