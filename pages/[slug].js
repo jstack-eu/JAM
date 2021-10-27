@@ -9,8 +9,16 @@ import Layout from "../domains/general/molecules/layout";
 import SectionsGenerator from "../domains/general/molecules/sectionsGenerator";
 import Contact from "../domains/general/organisms/contact";
 
+// const contentfulImport = require("contentful-import");
+
+// const options = {
+//   contentFile: "./cms-data.json",
+//   spaceId: "gdied21sl5zt",
+//   managementToken: "CFPAT-t8cewvJim0fdhd7IG4L-moHBSjGa3SXLPG_nzb3D5Os",
+// };
+
 export async function getStaticPaths({ locales }) {
-  console.log('...', locales)
+  console.log("...", locales);
   let data = await getEntries({
     content_type: "page",
     include: 10,
@@ -44,6 +52,14 @@ export async function getStaticProps({ params, locale }) {
     "fields.slug": params.slug,
     include: 10,
   });
+
+  // contentfulImport(options)
+  //   .then(() => {
+  //     console.log("Data imported successfully");
+  //   })
+  //   .catch((err) => {
+  //     console.log("Oh no! Some errors occurred!", err);
+  //   });
 
   let realisations;
 

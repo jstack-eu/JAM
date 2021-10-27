@@ -1,0 +1,7035 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "page",
+        "type": "ContentType",
+        "createdAt": "2021-05-03T10:31:16.009Z",
+        "updatedAt": "2021-10-24T15:33:20.725Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2021-10-24T15:33:20.725Z",
+        "firstPublishedAt": "2021-05-03T10:31:16.490Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 10,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "displayField": "titleNl",
+      "name": "Page",
+      "description": "",
+      "fields": [
+        {
+          "id": "titleNl",
+          "name": "TitleNl",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleFr",
+          "name": "TitleFr",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleEn",
+          "name": "TitleEn",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "order",
+          "name": "order",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "metaDescription",
+          "name": "Meta description",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "metaDescriptionFr",
+          "name": "Meta descriptionFr",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "metaDescriptionEn",
+          "name": "Meta descriptionEn",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "blocks",
+          "name": "Blocks",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "section",
+        "type": "ContentType",
+        "createdAt": "2021-05-03T10:38:10.310Z",
+        "updatedAt": "2021-10-16T16:06:52.701Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 25,
+        "publishedAt": "2021-10-16T16:06:52.701Z",
+        "firstPublishedAt": "2021-05-03T10:38:10.723Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 13,
+        "version": 26,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Section: Basic",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleFr",
+          "name": "titleFr",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleEn",
+          "name": "titleEn",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "content",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contentFr",
+          "name": "contentFr",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contentEn",
+          "name": "contentEn",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "sectionHero",
+        "type": "ContentType",
+        "createdAt": "2021-05-03T11:39:11.936Z",
+        "updatedAt": "2021-10-24T15:34:13.824Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 23,
+        "publishedAt": "2021-10-24T15:34:13.824Z",
+        "firstPublishedAt": "2021-05-03T11:39:12.669Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 12,
+        "version": 24,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Section: Hero",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleFr",
+          "name": "TitleFr",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleEn",
+          "name": "TitleEn",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "nodes": {
+              }
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
+              "message": "Only bold, italic, underline, and code marks are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contentFr",
+          "name": "ContentFr",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
+              "message": "Only bold, italic, underline, and code marks are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contentEn",
+          "name": "ContentEn",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
+              "message": "Only bold, italic, underline, and code marks are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "images",
+          "name": "Images",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkMimetypeGroup": [
+                  "image"
+                ]
+              }
+            ],
+            "linkType": "Asset"
+          }
+        },
+        {
+          "id": "button",
+          "name": "Button",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "buttonFr",
+          "name": "ButtonFr",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "buttonEn",
+          "name": "ButtonEn",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "buttonLink",
+          "name": "ButtonLink",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "icon",
+          "name": "icon",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "systemen",
+                "reparatie & revisie",
+                "service",
+                "componenten"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "sectionCarousel",
+        "type": "ContentType",
+        "createdAt": "2021-05-16T14:08:50.633Z",
+        "updatedAt": "2021-10-16T20:52:03.830Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 39,
+        "publishedAt": "2021-10-16T20:52:03.830Z",
+        "firstPublishedAt": "2021-05-16T14:08:51.378Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 20,
+        "version": 40,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Section: Carousel",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleFr",
+          "name": "TitleFr",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleEn",
+          "name": "TitleEn",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleLink",
+          "name": "Title link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "icon",
+          "name": "Icon",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "systemen",
+                "service",
+                "reparatie & revisie",
+                "componenten"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-asset-block"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, link to Url, link to entry, link to asset, and asset nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contentFr",
+          "name": "ContentFr",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contentEn",
+          "name": "ContentEn",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "images",
+          "name": "Images",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkMimetypeGroup": [
+                  "image"
+                ]
+              }
+            ],
+            "linkType": "Asset"
+          }
+        },
+        {
+          "id": "button",
+          "name": "Button",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "buttonFr",
+          "name": "ButtonFr",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "buttonEn",
+          "name": "ButtonEn",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "buttonLink",
+          "name": "ButtonLink",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "general",
+        "type": "ContentType",
+        "createdAt": "2021-06-23T19:11:30.098Z",
+        "updatedAt": "2021-06-28T21:02:38.018Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-06-28T21:02:38.018Z",
+        "firstPublishedAt": "2021-06-23T19:11:30.505Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "displayField": "email",
+      "name": "General",
+      "description": "General information",
+      "fields": [
+        {
+          "id": "email",
+          "name": "email",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "address",
+          "name": "address",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "phone",
+          "name": "phone",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contactTitleNl",
+          "name": "contact title nl",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contactTitleFr",
+          "name": "contact title fr",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contactTitleEn",
+          "name": "contact title en",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "realisation",
+        "type": "ContentType",
+        "createdAt": "2021-07-02T22:47:28.521Z",
+        "updatedAt": "2021-07-03T14:51:06.185Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2021-07-03T14:51:06.185Z",
+        "firstPublishedAt": "2021-07-02T22:47:29.151Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "displayField": "slug",
+      "name": "Realisation",
+      "description": "",
+      "fields": [
+        {
+          "id": "slug",
+          "name": "slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleFr",
+          "name": "TitleFr",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleEn",
+          "name": "TitleEn",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "realisations",
+        "type": "ContentType",
+        "createdAt": "2021-07-03T10:23:59.898Z",
+        "updatedAt": "2021-07-03T11:08:21.930Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-03T11:08:21.930Z",
+        "firstPublishedAt": "2021-07-03T10:24:00.532Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "displayField": "titleNl",
+      "name": "Section: Realisations",
+      "description": "An overview block for the realisations",
+      "fields": [
+        {
+          "id": "titleNl",
+          "name": "TitleNl",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleFr",
+          "name": "TitleFr",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleEn",
+          "name": "TitleEn",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "c7kmgsfgdbpd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 20,
+        "createdAt": "2021-05-03T10:31:16.729Z",
+        "createdBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-10-24T15:33:21.602Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "page",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "titleNl",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleFr",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleEn",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "order",
+          "settings": {
+            "helpText": "The position of the link in the top bar - if no order number is provided the link will be hidden from the top bar)."
+          },
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "metaDescription",
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "metaDescriptionFr",
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "metaDescriptionEn",
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "blocks",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "c7kmgsfgdbpd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 26,
+        "createdAt": "2021-05-03T10:38:10.924Z",
+        "createdBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-10-16T16:06:53.246Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "section",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleFr",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleEn",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contentFr",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contentEn",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "c7kmgsfgdbpd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 24,
+        "createdAt": "2021-05-03T11:39:12.788Z",
+        "createdBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-10-24T15:34:15.088Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "sectionHero",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleFr",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleEn",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contentFr",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contentEn",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "images",
+          "widgetId": "assetGalleryEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "button",
+          "settings": {
+            "helpText": "Optional: If you want to include a button with a link to another page, this text will be displayed inside the button"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "buttonFr",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "buttonEn",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "buttonLink",
+          "settings": {
+            "helpText": "This will need to equal the slug (part of the url after the \"/\") of the page you are trying to link to"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "icon",
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "c7kmgsfgdbpd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 40,
+        "createdAt": "2021-05-16T14:08:51.455Z",
+        "createdBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-10-16T20:52:04.599Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "sectionCarousel",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleFr",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleEn",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleLink",
+          "settings": {
+            "helpText": "If the title of this section should be a link, enter the url of the page here"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "icon",
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contentFr",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contentEn",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "images",
+          "widgetId": "assetGalleryEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "button",
+          "settings": {
+            "helpText": "Optional: If you want to include a button with a link to another page, this text will be displayed inside the button"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "buttonFr",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "buttonEn",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "buttonLink",
+          "settings": {
+            "helpText": "Optional: The slug of the page you want to link to"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "c7kmgsfgdbpd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 8,
+        "createdAt": "2021-06-23T19:11:30.686Z",
+        "createdBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-06-28T21:02:38.556Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "general",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "email",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "address",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "phone",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contactTitleNl",
+          "settings": {
+            "helpText": "The title used on the contact page"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contactTitleFr",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contactTitleEn",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "c7kmgsfgdbpd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 12,
+        "createdAt": "2021-07-02T22:47:29.271Z",
+        "createdBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-03T14:51:06.770Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "realisation",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "The url of the page"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleFr",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleEn",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "c7kmgsfgdbpd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2021-07-03T10:24:00.620Z",
+        "createdBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-03T11:08:22.501Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1QKWWSwMQKunaE64Aeuyad",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "realisations",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "titleNl",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleFr",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleEn",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5q6f3lmCeYGRprRXZoyJqA",
+        "type": "Entry",
+        "createdAt": "2021-05-03T11:40:21.070Z",
+        "updatedAt": "2021-05-30T19:44:46.694Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 35,
+        "publishedAt": "2021-05-30T19:44:46.694Z",
+        "firstPublishedAt": "2021-05-03T11:41:52.266Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 14,
+        "version": 36,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        }
+      },
+      "fields": {
+        "titleNl": {
+          "nl-BE": "Home"
+        },
+        "titleFr": {
+          "nl-BE": "Home"
+        },
+        "titleEn": {
+          "nl-BE": "Home"
+        },
+        "slug": {
+          "nl-BE": "home"
+        },
+        "order": {
+          "nl-BE": 1
+        },
+        "metaDescription": {
+          "nl-BE": "DV Hydraulics werd opgericht in 2005 met als doel herstelling, revisie, ombouw en nieuwbouw van hydraulische systemen aan te bieden."
+        },
+        "blocks": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4D3GWonsX7FtFvevttqags"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6m4lK1xgAvAlU7eLD9H6BX"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5sqXDzgl32WdmOD6JJUzNe"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "b9AemcOrpKfoXok8WABch"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "DA7jL2v5gisZnMtTAq95S"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5iN8wRRfqHQEGNIHkxJwip",
+        "type": "Entry",
+        "createdAt": "2021-05-03T11:56:29.138Z",
+        "updatedAt": "2021-05-03T16:05:39.881Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-05-03T16:05:39.881Z",
+        "firstPublishedAt": "2021-05-03T12:00:04.809Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "section"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Services"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "2xvTzTge2cqUE06yDITzVO",
+        "type": "Entry",
+        "createdAt": "2021-05-15T17:50:04.005Z",
+        "updatedAt": "2021-06-28T14:24:03.678Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 24,
+        "publishedAt": "2021-06-28T14:24:03.678Z",
+        "firstPublishedAt": "2021-05-15T17:52:50.061Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 8,
+        "version": 25,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        }
+      },
+      "fields": {
+        "titleNl": {
+          "nl-BE": "Systemen"
+        },
+        "titleFr": {
+          "nl-BE": "Systèmes"
+        },
+        "titleEn": {
+          "nl-BE": "Systems"
+        },
+        "slug": {
+          "nl-BE": "systems"
+        },
+        "order": {
+          "nl-BE": 2
+        },
+        "metaDescription": {
+          "nl-BE": "Hydraulische systemen van dvhydraulics"
+        },
+        "blocks": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6e4z3wiUJqPeoEqkuhdLFy"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7JSPId7bqCvD8fGe20WTjq"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6UQl5vxSPDSlyRwaB3y3JA"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1qwWcOQZvLsYWzqA3AUPiy"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5Iizc3FC2SkU5l4DybTFlw"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "4D3GWonsX7FtFvevttqags",
+        "type": "Entry",
+        "createdAt": "2021-05-15T19:28:20.142Z",
+        "updatedAt": "2021-10-27T11:57:36.353Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 45,
+        "publishedAt": "2021-10-27T11:57:36.353Z",
+        "firstPublishedAt": "2021-05-15T19:38:55.326Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 9,
+        "version": 46,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionHero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Experts in Technology and Service"
+        },
+        "titleFr": {
+          "nl-BE": "Experts in Technology and Service"
+        },
+        "titleEn": {
+          "nl-BE": "Experts in Technology and Service"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "DV Hydraulics werd opgericht in 2005 met als doel herstelling, revisie, ombouw en nieuwbouw van hydraulische systemen aan te bieden, vooral binnen de industriële sector  dit voornamelijk voor de industriële sector. We zijn noch aan grenzen of aan talen gebonden",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Ook bieden we het mechanische- en sturingstechnische deel aan van de installatie -hoofdzakelijk door middel van Siemens sturingen en componenten ( Simotion). ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Zowel voor depannage als voor preventief onderhoud beschikken onze mensen over alle noodzakelijke meetinstrumenten, alsook over een grondige vakkennis. \n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "contentFr": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Frans",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "contentEn": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Engels",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4coHV3zZNTcN8Gbi3u3FZA"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4uFmqrSm1OSVcYerxvWy0a"
+              }
+            }
+          ]
+        },
+        "button": {
+          "nl-BE": "Ontdek onze groene & revolutionaire servopompsystemen"
+        },
+        "buttonFr": {
+          "nl-BE": "Servo FR"
+        },
+        "buttonEn": {
+          "nl-BE": "Servo EN"
+        },
+        "buttonLink": {
+          "nl-BE": "servo-pump-systems"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "6m4lK1xgAvAlU7eLD9H6BX",
+        "type": "Entry",
+        "createdAt": "2021-05-20T16:46:49.960Z",
+        "updatedAt": "2021-10-16T21:14:14.122Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 43,
+        "publishedAt": "2021-10-16T21:14:14.122Z",
+        "firstPublishedAt": "2021-05-20T18:22:02.812Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 10,
+        "version": 44,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Systemen"
+        },
+        "titleFr": {
+          "nl-BE": "Systèmes"
+        },
+        "titleEn": {
+          "nl-BE": "Systems"
+        },
+        "titleLink": {
+          "nl-BE": "systems"
+        },
+        "icon": {
+          "nl-BE": "systemen"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "DV Hydraulics kan u de beste systeemtechnische, energiezuinige, veilige en milieuvriendelijke oplossing aanbieden voor uw probleem, met een zeer korte doorlooptijd. Ook het mechanische aspect kan door ons uitgewerkt worden, waardoor zo een volledige machine kan worden vervaardigd. Hier gebruiken wij krachtige software pakketten voor waardoor we ook 3D modellen en simulaties van de installatie kunnen bijleveren, alsook het elektrische en hydraulische schema. Alle systemen worden eerst bij ons getest alvorens bij u geïnstalleerd te worden.\n\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "contentFr": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Frans",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "contentEn": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Engels",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4coHV3zZNTcN8Gbi3u3FZA"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "xW8QPooMlwUjf0rQng9VL"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4uFmqrSm1OSVcYerxvWy0a"
+              }
+            }
+          ]
+        },
+        "button": {
+          "nl-BE": "Bekijk onze realisaties"
+        },
+        "buttonLink": {
+          "nl-BE": "realisations"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5sqXDzgl32WdmOD6JJUzNe",
+        "type": "Entry",
+        "createdAt": "2021-05-23T18:51:19.289Z",
+        "updatedAt": "2021-10-27T13:04:03.509Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 18,
+        "publishedAt": "2021-10-27T13:04:03.509Z",
+        "firstPublishedAt": "2021-05-23T18:53:16.930Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 7,
+        "version": 19,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Service & Onderhoud"
+        },
+        "titleLink": {
+          "nl-BE": "service-and-maintenance"
+        },
+        "icon": {
+          "nl-BE": "service"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Ook bieden we het mechanische- en sturingstechnische deel aan van de installatie -hoofdzakelijk door middel van Siemens sturingen en componenten ( Simotion).",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Zowel voor depannage als voor preventief onderhoud beschikken onze mensen over alle noodzakelijke meetinstrumenten, alsook over een grondige vakkennis.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "7yNNVAVnn54x8mYPSAoO7C",
+        "type": "Entry",
+        "createdAt": "2021-05-27T18:09:19.419Z",
+        "updatedAt": "2021-10-27T13:03:44.214Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 22,
+        "publishedAt": "2021-10-27T13:03:44.214Z",
+        "firstPublishedAt": "2021-05-27T18:13:35.090Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 23,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        }
+      },
+      "fields": {
+        "titleNl": {
+          "nl-BE": "Service & Onderhoud"
+        },
+        "titleFr": {
+          "nl-BE": "Service & Maintenance"
+        },
+        "titleEn": {
+          "nl-BE": "Service & Maintenance"
+        },
+        "slug": {
+          "nl-BE": "service-and-maintenance"
+        },
+        "order": {
+          "nl-BE": 3
+        },
+        "blocks": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "45MEDz6Pnj2zNt4CB3fvtq"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "f08tyAGOcaMlEQ5BP4CQ9"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6ndQmtTcOePHgxY4WcoKDX"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5sYxJv0f5XPvC5kKont008"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "f08tyAGOcaMlEQ5BP4CQ9",
+        "type": "Entry",
+        "createdAt": "2021-05-27T18:10:35.990Z",
+        "updatedAt": "2021-06-28T12:53:08.584Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2021-06-28T12:53:08.584Z",
+        "firstPublishedAt": "2021-05-27T18:13:23.301Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Engineering"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Wij tekenen dingen uit voor u.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "6Q7NG2HuCRDFo8RSMS2gON",
+        "type": "Entry",
+        "createdAt": "2021-05-27T18:18:29.039Z",
+        "updatedAt": "2021-07-03T12:04:23.618Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2021-07-03T12:04:23.618Z",
+        "firstPublishedAt": "2021-05-30T19:47:13.317Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        }
+      },
+      "fields": {
+        "titleNl": {
+          "nl-BE": "Realisaties"
+        },
+        "titleFr": {
+          "nl-BE": "Réalisations"
+        },
+        "titleEn": {
+          "nl-BE": "Realisations"
+        },
+        "slug": {
+          "nl-BE": "realisations"
+        },
+        "order": {
+          "nl-BE": 7
+        },
+        "blocks": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "26oDyRxJ9OmletFPEZmtkc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "b9AemcOrpKfoXok8WABch",
+        "type": "Entry",
+        "createdAt": "2021-05-30T10:54:55.251Z",
+        "updatedAt": "2021-10-27T13:04:12.247Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2021-10-27T13:04:12.247Z",
+        "firstPublishedAt": "2021-05-30T10:55:45.563Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Reparatie & Revisie"
+        },
+        "titleLink": {
+          "nl-BE": "reparations-and-revisions"
+        },
+        "icon": {
+          "nl-BE": "reparatie & revisie"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Ook bieden we het mechanische- en sturingstechnische deel aan van de installatie -hoofdzakelijk door middel van Siemens sturingen en componenten ( Simotion).",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Zowel voor depannage als voor preventief onderhoud beschikken onze mensen over alle noodzakelijke meetinstrumenten, alsook over een grondige vakkennis.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "DA7jL2v5gisZnMtTAq95S",
+        "type": "Entry",
+        "createdAt": "2021-05-30T11:15:42.696Z",
+        "updatedAt": "2021-10-24T15:06:08.635Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2021-10-24T15:06:08.635Z",
+        "firstPublishedAt": "2021-05-30T11:16:25.738Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Componenten"
+        },
+        "titleLink": {
+          "nl-BE": "components"
+        },
+        "icon": {
+          "nl-BE": "componenten"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "DV Hydraulics kan u de beste systeemtechnische, energiezuinige, veilige en milieuvriendelijke oplossing aanbieden voor uw probleem, met een zeer korte doorlooptijd. Ook het mechanische aspect kan door ons uitgewerkt worden, waardoor zo een volledige machine kan worden vervaardigd. Hier gebruiken wij krachtige software pakketten voor waardoor we ook 3D modellen en simulaties van de installatie kunnen bijleveren, alsook het elektrische en hydraulische schema. Alle systemen worden eerst bij ons getest alvorens bij u geïnstalleerd te worden.\n\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4coHV3zZNTcN8Gbi3u3FZA"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5JEeExSJtcLPB4sgxnvmXq",
+        "type": "Entry",
+        "createdAt": "2021-05-30T20:29:12.376Z",
+        "updatedAt": "2021-10-27T13:03:18.956Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2021-10-27T13:03:18.956Z",
+        "firstPublishedAt": "2021-05-30T20:29:48.385Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        }
+      },
+      "fields": {
+        "titleNl": {
+          "nl-BE": "Reparatie & Revisie"
+        },
+        "titleFr": {
+          "nl-BE": " Réparation & Révision"
+        },
+        "titleEn": {
+          "nl-BE": "Reparations & Revisions"
+        },
+        "slug": {
+          "nl-BE": "reparations-and-revisions"
+        },
+        "order": {
+          "nl-BE": 4
+        },
+        "blocks": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "yaBoa1viC8XKBSqcKMo0D"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2nUJBIK01RGeW6CvOeUhcf"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "45taiKQxtls6aW9Sqkq8h7"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "78FaH8gmmnJilleUjx1Chb"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6QrROXtyQAKA0vdALQd0uT"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "4RPX9ZCW0ACaDTgBYwghZ8",
+        "type": "Entry",
+        "createdAt": "2021-05-30T20:33:10.212Z",
+        "updatedAt": "2021-10-24T15:26:18.219Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2021-10-24T15:26:18.219Z",
+        "firstPublishedAt": "2021-05-30T20:33:21.251Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        }
+      },
+      "fields": {
+        "titleNl": {
+          "nl-BE": "Componenten"
+        },
+        "titleFr": {
+          "nl-BE": "Composants"
+        },
+        "titleEn": {
+          "nl-BE": "Components"
+        },
+        "slug": {
+          "nl-BE": "components"
+        },
+        "order": {
+          "nl-BE": 5
+        },
+        "blocks": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5Paf19VAQK4OAaOfxCFjbf"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5PmR0DOkEjha1TDJrKZ5Pb"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5f6QkB8YpiAF8JhHg7w6Pu"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6tSRc7dajBpOLX8yweF4yG"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "moAwMfNXukABsWysYA2TF"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "563By17JHoB4z16AWofV0F",
+        "type": "Entry",
+        "createdAt": "2021-05-30T20:33:30.567Z",
+        "updatedAt": "2021-06-28T15:40:03.267Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2021-06-28T15:40:03.267Z",
+        "firstPublishedAt": "2021-05-30T20:34:14.922Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        }
+      },
+      "fields": {
+        "titleNl": {
+          "nl-BE": "Vacatures"
+        },
+        "titleFr": {
+          "nl-BE": "Postes vacants"
+        },
+        "titleEn": {
+          "nl-BE": "Vacancies"
+        },
+        "slug": {
+          "nl-BE": "vacancies"
+        },
+        "order": {
+          "nl-BE": 6
+        },
+        "blocks": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4kgwciSNAf5B5m7Lpr90MF"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "47GwhdrQiFsthE59n0II56",
+        "type": "Entry",
+        "createdAt": "2021-05-30T20:34:20.119Z",
+        "updatedAt": "2021-05-30T20:34:36.049Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-05-30T20:34:36.049Z",
+        "firstPublishedAt": "2021-05-30T20:34:36.049Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        }
+      },
+      "fields": {
+        "titleNl": {
+          "nl-BE": "Contact"
+        },
+        "titleFr": {
+          "nl-BE": "Contact"
+        },
+        "titleEn": {
+          "nl-BE": "Contact"
+        },
+        "slug": {
+          "nl-BE": "contact"
+        },
+        "order": {
+          "nl-BE": 8
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "3JRCAuNI9aYiBE091twosU",
+        "type": "Entry",
+        "createdAt": "2021-06-23T20:07:53.475Z",
+        "updatedAt": "2021-10-27T11:58:40.247Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2021-10-27T11:58:40.247Z",
+        "firstPublishedAt": "2021-06-23T20:12:52.947Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "general"
+          }
+        }
+      },
+      "fields": {
+        "email": {
+          "nl-BE": " info@dvhydraulics.be"
+        },
+        "address": {
+          "nl-BE": "Hoek 76, Unit 11, 2850 Boom, België"
+        },
+        "phone": {
+          "nl-BE": "+32 3 888 60 00"
+        },
+        "contactTitleNl": {
+          "nl-BE": "Contacteer ons"
+        },
+        "contactTitleFr": {
+          "nl-BE": "Contactez-nous"
+        },
+        "contactTitleEn": {
+          "nl-BE": "Contact us"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "6e4z3wiUJqPeoEqkuhdLFy",
+        "type": "Entry",
+        "createdAt": "2021-06-28T13:36:11.233Z",
+        "updatedAt": "2021-10-24T15:39:26.535Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-10-24T15:39:26.535Z",
+        "firstPublishedAt": "2021-06-28T13:36:55.430Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionHero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Systemen"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "DV Hydraulics vervaardigt hydraulische aggregaten in alle vormen en groottes, volgens hydraulisch schema en vooraf geleverd 3D model. Het aggregaat kan aangedreven worden door een elektro (servo) motor of dieselmotor, in een brandvrije of geluidsdichte behuizing geplaatst worden, geschikt zijn om in een explosiegevaarlijke omgeving te werken, enzomeer. Zoals u bij onze “Realisaties” kan zien, zijn de mogelijkheden zeer uitgebreid. Bij vragen aarzel niet ons te contacteren.\n\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4coHV3zZNTcN8Gbi3u3FZA"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            }
+          ]
+        },
+        "icon": {
+          "nl-BE": "systemen"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "7JSPId7bqCvD8fGe20WTjq",
+        "type": "Entry",
+        "createdAt": "2021-06-28T13:52:53.278Z",
+        "updatedAt": "2021-06-28T13:56:10.522Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-06-28T13:56:10.522Z",
+        "firstPublishedAt": "2021-06-28T13:56:10.522Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Servopomp systemen"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "6UQl5vxSPDSlyRwaB3y3JA",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:18:53.854Z",
+        "updatedAt": "2021-06-28T14:20:37.343Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-28T14:20:37.343Z",
+        "firstPublishedAt": "2021-06-28T14:20:37.343Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "HDU - Nieuw"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4coHV3zZNTcN8Gbi3u3FZA"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "1qwWcOQZvLsYWzqA3AUPiy",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:21:58.788Z",
+        "updatedAt": "2021-06-28T14:22:14.311Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-28T14:22:14.311Z",
+        "firstPublishedAt": "2021-06-28T14:22:14.311Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Persen"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5Iizc3FC2SkU5l4DybTFlw",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:23:46.332Z",
+        "updatedAt": "2021-06-28T14:24:00.740Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-28T14:24:00.740Z",
+        "firstPublishedAt": "2021-06-28T14:24:00.740Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Maatwerk"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "45MEDz6Pnj2zNt4CB3fvtq",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:38:52.124Z",
+        "updatedAt": "2021-10-27T11:57:45.229Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-10-27T11:57:45.229Z",
+        "firstPublishedAt": "2021-06-28T14:40:53.500Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionHero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Service & Onderhoud"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4coHV3zZNTcN8Gbi3u3FZA"
+              }
+            }
+          ]
+        },
+        "icon": {
+          "nl-BE": "service"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "6ndQmtTcOePHgxY4WcoKDX",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:42:59.587Z",
+        "updatedAt": "2021-06-28T14:43:36.008Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-28T14:43:36.008Z",
+        "firstPublishedAt": "2021-06-28T14:43:36.008Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Intervention"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5sYxJv0f5XPvC5kKont008",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:43:45.238Z",
+        "updatedAt": "2021-06-28T14:44:08.475Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-28T14:44:08.475Z",
+        "firstPublishedAt": "2021-06-28T14:44:08.475Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Onderhoud"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "yaBoa1viC8XKBSqcKMo0D",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:47:29.901Z",
+        "updatedAt": "2021-10-27T11:57:55.067Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-10-27T11:57:55.067Z",
+        "firstPublishedAt": "2021-06-28T14:49:20.655Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionHero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Reparatie & Revisie"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4coHV3zZNTcN8Gbi3u3FZA"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            }
+          ]
+        },
+        "icon": {
+          "nl-BE": "reparatie & revisie"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "2nUJBIK01RGeW6CvOeUhcf",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:49:53.088Z",
+        "updatedAt": "2021-06-28T14:57:07.414Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-28T14:57:07.414Z",
+        "firstPublishedAt": "2021-06-28T14:57:07.414Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Installaties"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "45taiKQxtls6aW9Sqkq8h7",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:57:20.737Z",
+        "updatedAt": "2021-10-27T13:05:06.566Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2021-10-27T13:05:06.566Z",
+        "firstPublishedAt": "2021-06-28T14:57:45.170Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Pompen & Motoren"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud 1",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "78FaH8gmmnJilleUjx1Chb",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:57:54.854Z",
+        "updatedAt": "2021-06-28T14:58:07.361Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-28T14:58:07.361Z",
+        "firstPublishedAt": "2021-06-28T14:58:07.361Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Cilinders"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4coHV3zZNTcN8Gbi3u3FZA"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "6QrROXtyQAKA0vdALQd0uT",
+        "type": "Entry",
+        "createdAt": "2021-06-28T14:58:40.984Z",
+        "updatedAt": "2021-06-28T14:58:55.244Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-28T14:58:55.244Z",
+        "firstPublishedAt": "2021-06-28T14:58:55.244Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Ventielen"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5Paf19VAQK4OAaOfxCFjbf",
+        "type": "Entry",
+        "createdAt": "2021-06-28T15:13:14.918Z",
+        "updatedAt": "2021-10-24T15:34:40.294Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-10-24T15:34:40.294Z",
+        "firstPublishedAt": "2021-06-28T15:13:29.615Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionHero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Componenten"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            }
+          ]
+        },
+        "icon": {
+          "nl-BE": "componenten"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5PmR0DOkEjha1TDJrKZ5Pb",
+        "type": "Entry",
+        "createdAt": "2021-06-28T15:14:07.195Z",
+        "updatedAt": "2021-10-27T13:05:12.372Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-10-27T13:05:12.372Z",
+        "firstPublishedAt": "2021-06-28T15:14:23.011Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Pompen & Motoren"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud 2",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5f6QkB8YpiAF8JhHg7w6Pu",
+        "type": "Entry",
+        "createdAt": "2021-06-28T15:14:31.047Z",
+        "updatedAt": "2021-06-28T15:19:03.244Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-28T15:19:03.244Z",
+        "firstPublishedAt": "2021-06-28T15:19:03.244Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Cilinders"
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4coHV3zZNTcN8Gbi3u3FZA"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "6tSRc7dajBpOLX8yweF4yG",
+        "type": "Entry",
+        "createdAt": "2021-06-28T15:19:10.179Z",
+        "updatedAt": "2021-06-28T15:19:25.143Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-28T15:19:25.143Z",
+        "firstPublishedAt": "2021-06-28T15:19:25.143Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Ventielen"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7wCNuuNTXV10QzPEI8UrTg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "moAwMfNXukABsWysYA2TF",
+        "type": "Entry",
+        "createdAt": "2021-06-28T15:19:33.222Z",
+        "updatedAt": "2021-06-28T15:27:37.918Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-06-28T15:27:37.918Z",
+        "firstPublishedAt": "2021-06-28T15:20:38.915Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionCarousel"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Conditionering"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Inhoud",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "4kgwciSNAf5B5m7Lpr90MF",
+        "type": "Entry",
+        "createdAt": "2021-06-28T15:33:40.732Z",
+        "updatedAt": "2021-10-16T16:05:39.821Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 22,
+        "publishedAt": "2021-10-16T16:05:39.821Z",
+        "firstPublishedAt": "2021-06-28T15:39:37.733Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 9,
+        "version": 23,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "section"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Vacatures"
+        },
+        "titleFr": {
+          "nl-BE": "VacaturesFR"
+        },
+        "titleEn": {
+          "nl-BE": "VacaturesEN"
+        },
+        "content": {
+          "nl-BE": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "heading-3",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Technieker",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              },
+              {
+                "nodeType": "embedded-asset-block",
+                "content": [
+                ],
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "6WBM0EErwiZnmIJ2VJhmue",
+                      "type": "Link",
+                      "linkType": "Asset"
+                    }
+                  }
+                }
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": " Als Fieldoperator ben je de ogen en oren van de procesoperator die in de controlekamer werkt. Daarnaast doe jij ook vaste toezichtrondes binnen de centrale op de installaties waar je eventuele storingen oppikt en de nodige analyses maakt. Je bedient lokale uitrustingen en voert bepaalde ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "onderhoudswerken ",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "uit in samenwerking met de onderhoudstechniekers. Het technische proces van de centrale bestuderen, is een constante en je werkt ook mee aan kleine projecten. Als in teamverband werken echt jouw ding is, dan ben JIJ onze volgende collega!\n\n",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5xxE2TSwztzllOiEBUp1XV",
+        "type": "Entry",
+        "createdAt": "2021-07-02T22:51:38.896Z",
+        "updatedAt": "2021-07-03T12:55:14.898Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-07-03T12:55:14.898Z",
+        "firstPublishedAt": "2021-07-02T22:52:09.104Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "realisation"
+          }
+        }
+      },
+      "fields": {
+        "slug": {
+          "nl-BE": "realisation-1"
+        },
+        "title": {
+          "nl-BE": "Realisation 1"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "According to an article in The Economist ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "(03/03/18)",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", management consultancy firm Bain predicts that, by 2030 American companies will invest as much as $8 trillion in automation and robotics. Bain predicts a large chunk of this investment will be in service industries, where robotic automation will replace human labor.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "This is a remarkable feat of crystal ball gazing. $8 trillion is a huge number–just in America, and in the next 12 years. But even if it’s half that, this amounts to $4 trillion, still massive. And if hydraulics only accounts for 5% of this investment, the hydraulics biz will get a $200 billion boost over the next decade or so. This would be VERY significant when you consider hydraulics consumption in the U.S. is around $15 billion annually at the moment. Roll this out around the globe and we’d see something resembling a hydraulics boom the likes of which we’ve never seen before.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Regardless of whether Bain is right or wrong about the numbers, we know for certain there is a lot of early stage investment going into AI, autonomous control and robotics right now. And this investment will spin off a whole host of new technologies and product offerings over the next decade and beyond. I expect hydraulics to be a relatively minor participant in the grand scheme of things, but as the saying goes: a rising tide floats all boats.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "What we also know is, the hydraulics that will be incorporated into these innovations will be 21st century, smart hydraulics: electronics heavy and digitally controlled. And this means to fully profit from this forecast expansion, a 21st century hydraulics skill-set will be required. Don’t wait until it’s too late. NOW is the time to work at this, to prepare, so you’re in the best possible position to profit from what lies ahead.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "\n\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "image": {
+          "nl-BE": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2zKa4BsbM7YBSLkdZfQm4Y"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "3gajH2dh3mWd6cnl4D7SYm",
+        "type": "Entry",
+        "createdAt": "2021-07-02T22:52:16.156Z",
+        "updatedAt": "2021-07-02T22:52:29.207Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-02T22:52:29.207Z",
+        "firstPublishedAt": "2021-07-02T22:52:29.207Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "realisation"
+          }
+        }
+      },
+      "fields": {
+        "slug": {
+          "nl-BE": "realisation-2"
+        },
+        "title": {
+          "nl-BE": "Realisation 2"
+        },
+        "content": {
+          "nl-BE": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Content 2",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "26oDyRxJ9OmletFPEZmtkc",
+        "type": "Entry",
+        "createdAt": "2021-07-03T10:46:56.805Z",
+        "updatedAt": "2021-07-03T10:47:20.034Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-07-03T10:47:20.034Z",
+        "firstPublishedAt": "2021-07-03T10:47:20.034Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "realisations"
+          }
+        }
+      },
+      "fields": {
+        "titleNl": {
+          "nl-BE": "Onze realisaties"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "4TXLqwfmVSh923pxb2kiYv",
+        "type": "Entry",
+        "createdAt": "2021-07-03T12:41:37.969Z",
+        "updatedAt": "2021-07-03T12:41:55.239Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-07-03T12:41:55.239Z",
+        "firstPublishedAt": "2021-07-03T12:41:55.239Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "realisation"
+          }
+        }
+      },
+      "fields": {
+        "slug": {
+          "nl-BE": "realisation-3"
+        },
+        "title": {
+          "nl-BE": "Realisation 3"
+        },
+        "content": {
+          "nl-BE": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Content 3",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "1yN9wMjV15KKadh6iOhKMh",
+        "type": "Entry",
+        "createdAt": "2021-07-03T12:41:59.748Z",
+        "updatedAt": "2021-07-03T12:42:12.909Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-03T12:42:12.909Z",
+        "firstPublishedAt": "2021-07-03T12:42:12.909Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "realisation"
+          }
+        }
+      },
+      "fields": {
+        "slug": {
+          "nl-BE": "realisation-4"
+        },
+        "title": {
+          "nl-BE": "Realisation 4"
+        },
+        "content": {
+          "nl-BE": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Content 4",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "1HZyANC6s1OcmsFu383SC0",
+        "type": "Entry",
+        "createdAt": "2021-07-18T18:55:02.064Z",
+        "updatedAt": "2021-07-18T18:58:48.366Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2021-07-18T18:58:48.366Z",
+        "firstPublishedAt": "2021-07-18T18:57:42.960Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        }
+      },
+      "fields": {
+        "titleNl": {
+          "nl-BE": "Servopompsystemen"
+        },
+        "slug": {
+          "nl-BE": "servo-pump-systems"
+        },
+        "blocks": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "177A2h2tN6150n0Cm49qtk"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "177A2h2tN6150n0Cm49qtk",
+        "type": "Entry",
+        "createdAt": "2021-07-18T18:56:18.771Z",
+        "updatedAt": "2021-07-18T19:02:04.022Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-07-18T19:02:04.022Z",
+        "firstPublishedAt": "2021-07-18T18:57:36.138Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sectionHero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Servopompsystemen"
+        },
+        "content": {
+          "nl-BE": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Servopompsystemen",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "images": {
+          "nl-BE": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2zKa4BsbM7YBSLkdZfQm4Y"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6WBM0EErwiZnmIJ2VJhmue"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "5STrOYPMIAXziKWn4ZFnK6",
+        "type": "Asset",
+        "createdAt": "2021-05-03T11:57:29.731Z",
+        "updatedAt": "2021-05-03T11:58:10.641Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-05-03T11:58:10.641Z",
+        "firstPublishedAt": "2021-05-03T11:58:10.641Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Testen"
+        },
+        "file": {
+          "nl-BE": {
+            "url": "//images.ctfassets.net/c7kmgsfgdbpd/5STrOYPMIAXziKWn4ZFnK6/8d7ea2bc8f1ddac7b2e8b2626e2a53cc/Testen.png",
+            "details": {
+              "size": 78699,
+              "image": {
+                "width": 1440,
+                "height": 889
+              }
+            },
+            "fileName": "Testen.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "6Hk2HqKP3HTKXL0bHjRCOd",
+        "type": "Asset",
+        "createdAt": "2021-05-03T11:59:02.258Z",
+        "updatedAt": "2021-05-03T11:59:42.118Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-05-03T11:59:42.118Z",
+        "firstPublishedAt": "2021-05-03T11:59:42.118Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Filter"
+        },
+        "file": {
+          "nl-BE": {
+            "url": "//images.ctfassets.net/c7kmgsfgdbpd/6Hk2HqKP3HTKXL0bHjRCOd/46b18fd0980d64d4042b87a45681f959/filter_design.png",
+            "details": {
+              "size": 104958,
+              "image": {
+                "width": 1109,
+                "height": 807
+              }
+            },
+            "fileName": "filter design.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "4coHV3zZNTcN8Gbi3u3FZA",
+        "type": "Asset",
+        "createdAt": "2021-05-15T19:35:14.208Z",
+        "updatedAt": "2021-05-15T19:35:56.861Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-05-15T19:35:56.861Z",
+        "firstPublishedAt": "2021-05-15T19:35:56.861Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "machine building 1"
+        },
+        "file": {
+          "nl-BE": {
+            "url": "//images.ctfassets.net/c7kmgsfgdbpd/4coHV3zZNTcN8Gbi3u3FZA/499a52313bc26d4482b69ddc5a83ce58/machine-building-1.jpg",
+            "details": {
+              "size": 260246,
+              "image": {
+                "width": 2400,
+                "height": 1080
+              }
+            },
+            "fileName": "machine-building-1.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "7wCNuuNTXV10QzPEI8UrTg",
+        "type": "Asset",
+        "createdAt": "2021-05-15T19:36:50.020Z",
+        "updatedAt": "2021-05-15T19:37:06.879Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-05-15T19:37:06.879Z",
+        "firstPublishedAt": "2021-05-15T19:37:06.879Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Machine building 2"
+        },
+        "file": {
+          "nl-BE": {
+            "url": "//images.ctfassets.net/c7kmgsfgdbpd/7wCNuuNTXV10QzPEI8UrTg/79f3c5eb724d22dba1130afa470838eb/machine-building-2.jpg",
+            "details": {
+              "size": 257529,
+              "image": {
+                "width": 2400,
+                "height": 1080
+              }
+            },
+            "fileName": "machine-building-2.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "6WBM0EErwiZnmIJ2VJhmue",
+        "type": "Asset",
+        "createdAt": "2021-05-20T18:17:49.728Z",
+        "updatedAt": "2021-05-20T18:21:02.404Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-05-20T18:21:02.404Z",
+        "firstPublishedAt": "2021-05-20T18:21:02.404Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "systems"
+        },
+        "description": {
+          "nl-BE": "Systems"
+        },
+        "file": {
+          "nl-BE": {
+            "url": "//images.ctfassets.net/c7kmgsfgdbpd/6WBM0EErwiZnmIJ2VJhmue/3448fb058947479a2bbae8ec177ab1fd/systems.jpg",
+            "details": {
+              "size": 307124,
+              "image": {
+                "width": 2400,
+                "height": 1080
+              }
+            },
+            "fileName": "systems.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "2zKa4BsbM7YBSLkdZfQm4Y",
+        "type": "Asset",
+        "createdAt": "2021-07-03T12:54:48.583Z",
+        "updatedAt": "2021-07-03T12:55:05.227Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-03T12:55:05.227Z",
+        "firstPublishedAt": "2021-07-03T12:55:05.227Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "realisatie"
+        },
+        "file": {
+          "nl-BE": {
+            "url": "//images.ctfassets.net/c7kmgsfgdbpd/2zKa4BsbM7YBSLkdZfQm4Y/7aa8b804b08ef5578288485dc98e456f/realisatie.jpg",
+            "details": {
+              "size": 3055180,
+              "image": {
+                "width": 3504,
+                "height": 2336
+              }
+            },
+            "fileName": "realisatie.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "xW8QPooMlwUjf0rQng9VL",
+        "type": "Asset",
+        "createdAt": "2021-10-16T20:25:54.835Z",
+        "updatedAt": "2021-10-16T20:27:45.653Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-10-16T20:27:45.653Z",
+        "firstPublishedAt": "2021-10-16T20:27:45.653Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "Hiking in the vosges mountains - France"
+        },
+        "description": {
+          "nl-BE": ""
+        },
+        "file": {
+          "nl-BE": {
+            "url": "//images.ctfassets.net/c7kmgsfgdbpd/xW8QPooMlwUjf0rQng9VL/6f751e85947ce56651ac6f9b34a1fd00/Hiking_in_the_vosges_mountains_-_France.JPG",
+            "details": {
+              "size": 121794,
+              "image": {
+                "width": 600,
+                "height": 400
+              }
+            },
+            "fileName": "Hiking in the vosges mountains - France.JPG",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "id": "4uFmqrSm1OSVcYerxvWy0a",
+        "type": "Asset",
+        "createdAt": "2021-10-16T20:29:37.302Z",
+        "updatedAt": "2021-10-16T20:31:16.641Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-10-16T20:31:16.641Z",
+        "firstPublishedAt": "2021-10-16T20:31:16.641Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "nl-BE": "vacature"
+        },
+        "description": {
+          "nl-BE": ""
+        },
+        "file": {
+          "nl-BE": {
+            "url": "//images.ctfassets.net/c7kmgsfgdbpd/4uFmqrSm1OSVcYerxvWy0a/b95dbcdaad0511ecd36fe4f8bd3f7011/vacature.PNG",
+            "details": {
+              "size": 225904,
+              "image": {
+                "width": 800,
+                "height": 294
+              }
+            },
+            "fileName": "vacature.PNG",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "Dutch (Belgium)",
+      "code": "nl-BE",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "1gwdvjSrV0ketknGCDudow",
+        "version": 2,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "6b5345a8-a25f-4e09-8c0a-983b4e9202a1"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "createdAt": "2021-05-03T10:28:02Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedAt": "2021-05-03T12:12:17Z"
+      }
+    }
+  ],
+  "webhooks": [
+    {
+      "name": "Netlify - Deploy a site",
+      "url": "https://api.netlify.com/build_hooks/6106effaf1ddb0f27e621b28",
+      "httpBasicUsername": null,
+      "topics": [
+        "Entry.publish",
+        "Asset.publish",
+        "Entry.unpublish",
+        "Asset.unpublish"
+      ],
+      "filters": [
+        {
+          "equals": [
+            {
+              "doc": "sys.environment.sys.id"
+            },
+            "master"
+          ]
+        }
+      ],
+      "transformation": {
+        "contentType": "application/json"
+      },
+      "sys": {
+        "type": "WebhookDefinition",
+        "id": "2tZwvROiCdPDkxOSZ3MIKt",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "createdAt": "2021-08-01T19:05:11Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedAt": "2021-08-01T19:05:11Z"
+      },
+      "headers": [
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "1gxc4DwOFRC6ccOLipYKVK",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "c7kmgsfgdbpd"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "createdAt": "2021-05-03T10:28:02Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1QKWWSwMQKunaE64Aeuyad"
+          }
+        },
+        "updatedAt": "2021-05-03T10:28:02Z"
+      }
+    }
+  ]
+}

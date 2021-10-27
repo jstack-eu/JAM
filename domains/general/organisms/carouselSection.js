@@ -46,13 +46,7 @@ const CarouselSection = ({
           )}
           {!isCL && (
             <div className="txtWrapper">
-              {titleLink ? (
-                <a className="titleLink" href={titleLink} locale={locale}>
-                  <div className="subtitle">{title}</div>
-                </a>
-              ) : (
-                <div className="subtitle">{title}</div>
-              )}
+              <div className="subtitle">{title}</div>
               <RichText content={content} />
               {buttonText && buttonLink && (
                 <a href={`/${buttonLink}`} className="cta">
@@ -74,13 +68,7 @@ const CarouselSection = ({
             )}
             {isCL && (
               <div className="txtWrapper">
-                {titleLink ? (
-                  <a className="titleLink" href={titleLink} locale={locale}>
-                    <div className="subtitle">{title}</div>
-                  </a>
-                ) : (
-                  <div className="subtitle">{title}</div>
-                )}
+                <div className="subtitle">{title}</div>
                 <RichText content={content} />
                 {buttonText && buttonLink && (
                   <a href={`/${buttonLink}`} className="cta">
